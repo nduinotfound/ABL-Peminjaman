@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Pengembalian {
     private Long id;
-    private Date tanggal_dikembalikan;
+    private Date tanggal_kembali;
     private String terlambat;
     private Double denda;
     private Long peminjamanId;
@@ -20,12 +20,12 @@ public class Pengembalian {
         this.id = id;
     }
 
-    public Date getTanggal_dikembalikan() {
-        return tanggal_dikembalikan;
+    public Date getTanggal_kembali() {
+        return tanggal_kembali;
     }
 
-    public void setTanggal_dikembalikan(Date tanggal_dikembalikan) {
-        this.tanggal_dikembalikan = tanggal_dikembalikan;
+    public void setTanggal_kembali(Date tanggal_kembali) {
+        this.tanggal_kembali = tanggal_kembali;
     }
 
     public String getTerlambat() {

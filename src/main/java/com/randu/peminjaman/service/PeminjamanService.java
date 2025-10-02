@@ -63,10 +63,10 @@ public class PeminjamanService {
         }
 
         ResponseTemplate vo = new ResponseTemplate();
+        vo.setPengembalian(pengembalian);
         vo.setPeminjaman(peminjaman);
         vo.setBuku(buku);
         vo.setAnggota(anggota);
-        vo.setPengembalian(pengembalian);
         return vo;
     }
 }
